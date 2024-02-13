@@ -17,7 +17,7 @@ export default function Page() {
           <div
             className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"
           />
-          <h1 className='text-blue-500 md:text-5xl'>Título azul</h1>
+          <h1 className='text-blue-500 md:text-5xl'>Título azul11111</h1>
           <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal ${lusitana.className} antialiased`}>
             <strong>Welcome to Acme.</strong> This is the example for the{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
