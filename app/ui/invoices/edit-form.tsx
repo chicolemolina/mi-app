@@ -10,7 +10,7 @@ import {
 import Link from 'next/link';
 import { Button } from '@/app/ui/button';
 
-expexport default function EditInvoiceForm({
+export default function EditInvoiceForm({
   invoice,
   customers,
 }: {
