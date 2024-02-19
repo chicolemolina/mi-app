@@ -74,11 +74,12 @@ export async function createInvoice(prevState: State, formData: FormData) {
 }
 
 export async function updateInvoice(id: string, formData: FormData) {
-  const { customerId, amount, status } = updateInvoice.parse({
-    customerId: formData.get('customerId'),
-    amount: formData.get('amount'),
-    status: formData.get('status'),
-  });
+const { customerId, amount, status } = UpdateInvoice.parse({
+id: formData.get('id'),
+customerId: formData.get('customerId'),
+amount: formData.get('amount'),
+status: formData.get('status'),
+});
  
   const amountInCents = amount * 100;
  
